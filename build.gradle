@@ -1,0 +1,37 @@
+// Load GitHub Properties outside of other configurations
+def githubProperties = new Properties()
+githubProperties.load(new FileInputStream(rootProject.file("github.properties")))
+
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.3'
+        classpath 'com.google.gms:google-services:4.3.10'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Note: jcenter is deprecated
+
+        // GitHub Packages repository for Liquid Swipe
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/Cuberto/liquid-swipe-android")
+            credentials {
+                username = githubProperties['gpr.usr'] ?: System.getenv("tonylis286")
+                password = githubProperties['gpr.key'] ?: System.getenv("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")
+            }
+        }
+        maven { url "https://jitpack.io" } // Additional repository if needed
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

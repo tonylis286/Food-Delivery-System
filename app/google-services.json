@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "809671087574",
+    "project_id": "foodorderingapp-6dd22",
+    "storage_bucket": "foodorderingapp-6dd22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809671087574:android:086b77cd633b8da3cb0077",
+        "android_client_info": {
+          "package_name": "com.example.clitz_arestaurantapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9VJYQkD6PRvxW_vga4Y-HryVr3r7jRuA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
