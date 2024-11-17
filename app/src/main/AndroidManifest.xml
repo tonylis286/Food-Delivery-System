@@ -15,7 +15,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ClitzARestaurantApp">
 
-        <!-- MainActivity 作為啟動活動 -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -25,7 +24,6 @@
             </intent-filter>
         </activity>
 
-        <!-- 其他活動 -->
         <activity
             android:name=".DineInOrderPlaced"
             android:exported="true" />
@@ -39,7 +37,6 @@
             android:name=".PlaceYourOrder"
             android:exported="true" />
         <activity android:name=".AutoImageSlider" />
-
 
     </application>
 

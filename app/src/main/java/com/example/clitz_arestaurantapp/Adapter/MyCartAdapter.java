@@ -51,8 +51,6 @@ public class MyCartAdapter extends RecyclerView.Adapter<MyCartAdapter.MyCartView
         holder.binding.txtPrice.setText(new StringBuilder("$").append(cartModel.getPrice()));
         holder.binding.txtName.setText(cartModel.getName());
         holder.binding.txtQuantity.setText(String.valueOf(cartModel.getQuantity()));
-
-        // Event listeners
         holder.binding.btnMinus.setOnClickListener(v -> minusCartItem(holder, cartModel));
         holder.binding.btnPlus.setOnClickListener(v -> plusCartItem(holder, cartModel));
         holder.binding.btnDelete.setOnClickListener(v -> showDeleteDialog(position, cartModel));
