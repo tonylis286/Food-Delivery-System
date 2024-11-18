@@ -102,7 +102,10 @@ public class MenuList extends AppCompatActivity implements ICartLoadListener, ID
 
         GridLayoutManager gridLayoutManager = new GridLayoutManager(this, 2);
         binding.recyclerDrink.setLayoutManager(gridLayoutManager);
-        binding.recyclerDrink.addItemDecoration(new SpaceItemDecoration());
+
+        int spacingInPixels = getResources().getDimensionPixelSize(R.dimen.recycler_view_item_spacing);
+
+        binding.recyclerDrink.addItemDecoration(new SpaceItemDecoration(spacingInPixels));
 
         binding.btnCart.setOnClickListener(v -> {
             Intent i = new Intent(getApplicationContext(), CartActivity.class);

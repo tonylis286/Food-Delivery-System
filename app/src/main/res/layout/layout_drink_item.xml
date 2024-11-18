@@ -1,54 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     app:cardCornerRadius="16dp"
-    app:cardElevation="12dp"
-    android:padding="8dp"
-    android:backgroundTint="#363062"
-    android:layout_margin="8dp">
+    app:cardElevation="8dp"
+    android:padding="12dp"
+    android:layout_margin="12dp"
+    android:backgroundTint="#FFFFFF"
+    tools:context=".DrinkItem">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="12dp"
+        android:orientation="vertical"
         android:gravity="center"
-        android:orientation="vertical">
-        
-        <ImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/common_google_signin_btn_icon_dark_normal"
-            android:id="@+id/imageView"
-            android:scaleType="centerCrop" />
+        android:padding="16dp">
 
+        <!-- ImageView with fixed height to ensure alignment -->
+        <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/common_google_signin_btn_icon_dark_normal"
+        android:contentDescription="Drink Image" />
+
+        <!-- Price TextView with larger text and better padding -->
         <TextView
             android:id="@+id/txtPrice"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="$10.0"
-            android:textSize="18sp"
-            android:textColor="#FBE0E8"
-            android:fontFamily="monospace"
-            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#FF4081"
+            android:fontFamily="sans-serif-medium"
             android:textStyle="bold"
-            android:layout_gravity="center_horizontal" />
+            android:paddingTop="12dp"
+            android:paddingBottom="4dp"
+            android:layout_gravity="center" />
 
+        <!-- Drink Name with larger font size, wrapping text properly -->
         <TextView
             android:id="@+id/txtName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name of Drink"
-            android:textSize="18sp"
-            android:textColor="#FBE0E8"
-            android:fontFamily="monospace"
-            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="#333333"
+            android:fontFamily="sans-serif-medium"
             android:textStyle="bold"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="8dp" />
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center" />
 
     </LinearLayout>
-    
+
 </androidx.cardview.widget.CardView>

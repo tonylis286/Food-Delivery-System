@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".QrCodeFragment">
 
     <TextView
@@ -14,7 +15,7 @@
         android:text="Place your Order"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="26dp"
+        android:textSize="28sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +32,7 @@
         android:text="using QR Code"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="26dp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -48,7 +49,7 @@
         android:text="present at your Table"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="26dp"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,12 +67,14 @@
         android:fontFamily="monospace"
         android:textStyle="bold"
         android:textColor="#00137C"
-        android:textSize="23dp"
-        android:backgroundTint="#FBE0E8"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_button"
+        android:elevation="8dp"
+        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toBottomOf="@+id/presentAtTable"
+        app:layout_constraintVertical_bias="0.05" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
