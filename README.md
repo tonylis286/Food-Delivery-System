@@ -7,7 +7,7 @@ s1381750@live.hkmu.edu.hk
 ---
 
 ## **How to install**
-a.You can download it using apk, apk put in https://drive.google.com/drive/folders/1tI_Lx-uQqLaMhitcUA5p1sZFsq9ELxD3?usp=sharing or \Food-Delivery-System
+a.You can download it using apk, apk put in https://drive.google.com/drive/folders/1tI_Lx-uQqLaMhitcUA5p1sZFsq9ELxD3?usp=sharing or \Food-Delivery-System file
 
 or
 
