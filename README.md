@@ -40,7 +40,8 @@ b.You can download Android Studio and open our project for more information
 1. Launch the Food Delivery System.
 2. Click the "Sign Up" button to create a new account.
     - Enter your account name, create a password, and submit the form.
-3. Once registered, log in using your account name and password.
+3. Once registered, log in using your account name and password.  
+![Image text](https://github.com/tonylis286/Food-Delivery-System/blob/master/photo/Login.png)
 
 ---
 
@@ -48,6 +49,7 @@ b.You can download Android Studio and open our project for more information
 1. After logging in, navigate to the menu page.
 2. Select the dish and add the item to your shopping cart.
 3. Repeat the process until you've selected all the items you wish to order.
+![Image text](https://github.com/tonylis286/Food-Delivery-System/blob/master/photo/MenuList.png)![Image text](https://github.com/tonylis286/Food-Delivery-System/blob/master/photo/Cart.png)
 
 ---
 
