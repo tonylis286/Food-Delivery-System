@@ -59,8 +59,9 @@ b.You can download Android Studio and open our project for more information
 ### **Step 4: Enter Address and View Delivery Route**
 1. Proceed to checkout and enter your delivery address in the designated field.
 2. The system will use Google Maps to display the delivery route, including the estimated delivery time.
-3. Confirm the order and proceed to payment.
-4.
+3. Confirm the order and proceed to payment.  
+![Image text](https://github.com/tonylis286/Food-Delivery-System/blob/master/photo/Map.png)
+
 ---
 
 ## **Technologies Used**
