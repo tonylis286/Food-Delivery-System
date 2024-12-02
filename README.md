@@ -12,6 +12,7 @@ a.You can download it using apk, apk put in foodOrdering-fireBase\app\release\ap
 or
 
 b.You can download Android Studio and open our project for more information
+
 ---
 
 ## **Features**
