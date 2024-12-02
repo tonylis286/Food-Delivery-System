@@ -66,7 +66,7 @@ b. You can download Android Studio and open our project for more information (I 
 ---
 
 ## **Technologies Used**
-- **Language:** HTML, JavaScript
+- **Language:** JavaScript
 - **Database:** Firebase
 - **Google Maps API:** For route and location visualization
 - **QR Code Scanner:** For table identification and validation
