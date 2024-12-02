@@ -1,5 +1,6 @@
 # Food Delivery System
 Welcome to Food Delivery System! The system is designed to provide an efficient dining experience. Using this system, customers can easily browse the menu and place their order. Next, you'll find an overview of the system's features and a step-by-step guide on how to use it.
+
 If you have any questions, you can email me.
 s1381750@live.hkmu.edu.hk
 
@@ -7,7 +8,9 @@ s1381750@live.hkmu.edu.hk
 
 ## **How to install**
 a.You can download it using apk, apk put in foodOrdering-fireBase\app\release\app-release.apk
+
 or
+
 b.You can download Android Studio and open our project for more information
 ---
 
