@@ -1,13 +1,15 @@
 # Food Delivery System
 Welcome to Food Delivery System! The system is designed to provide an efficient dining experience. Customers can easily browse the menu and place their orders using this system. Next, you'll find an overview of the system's features and a step-by-step guide on using it.
 
-If you have any questions, you can email me.
+If you have any questions, you can email me.  
 s1381750@live.hkmu.edu.hk
 
 ---
 
 ## **How to install**
-a.You can download it using apk, apk put in https://drive.google.com/drive/folders/1tI_Lx-uQqLaMhitcUA5p1sZFsq9ELxD3?usp=sharing or \Food-Delivery-System file
+a.You can download it using APK,  
+APK name is app-release.apk,  
+APK put in https://drive.google.com/drive/folders/1tI_Lx-uQqLaMhitcUA5p1sZFsq9ELxD3?usp=sharing or \Food-Delivery-System file
 
 or
 
